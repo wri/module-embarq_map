@@ -1,0 +1,5 @@
+name = Embarq Map
+description = Provides a static map.
+package = ADG
+core = 7.x
+dependencies[] = block
