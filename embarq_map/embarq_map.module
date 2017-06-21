@@ -49,7 +49,7 @@ function map_contents() {
         $output .= '</li>';
 
         $output .= '<li class="list-item">';
-          $output .= '<a href="#"><img src="' . $base_path . drupal_get_path('theme', 'wri') . '/images/logos/WRI-logo-China-color_Low_R01.png" alt="EMBARQ China"></a>';
+          $output .= '<a href="http://www.wrirosscities.org/geography/china"><img src="' . $base_path . drupal_get_path('theme', 'wri') . '/images/logos/WRI-logo-China-color_Low_R01.png" alt="EMBARQ China"></a>';
         $output .= '</li>';
 
         $output .= '<li class="list-item">';
