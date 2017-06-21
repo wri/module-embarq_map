@@ -1,5 +1,5 @@
 name = Embarq Map
-description = Provides a static map.
+description = Provides a static map. This module's repo is https://github.com/wri/module-embarq_map.
 package = ADG
 core = 7.x
 dependencies[] = block
