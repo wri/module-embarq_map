@@ -2,10 +2,10 @@
 Drupal module and assets used in several Ross Center Cities sites. 
 
 # Implementation
-In addition to adding the embarq_map module to the usual module location, do this:
 
-1. Put the 'map' dir with the map image assets in the theme directory at /images
-2. Adjust the map-pin css in the theme screen.css as follows (leave other values unchanged) at approx lines 3979-4009:
+1. Copy the embarq_map module files to the usual module location (for the Cities sites it is usually /sites/all/modules/custom/)
+2. Put the 'map' dir with the map image assets in the theme directory at /images
+3. Adjust the map-pin css in the theme screen.css as follows (leave other values unchanged) at approx lines 3979-4009:
 
 ```
 }
