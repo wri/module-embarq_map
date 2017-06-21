@@ -5,7 +5,7 @@ Drupal module and assets used in several Ross Center Cities sites.
 
 1. Copy the embarq_map module files to the usual module location (for the Cities sites it is usually /sites/all/modules/custom/)
 2. Put the 'map' dir with the map image assets in the theme directory at /images
-3. Adjust the map-pin css in the theme screen.css as follows (leave other values unchanged) at approx lines 3979-4009:
+3. Adjust the map-pin css in the WRI theme (leave other values unchanged). The sass component is wri/sass/components/\_embarq-static-map.scss. Note: if sass is not running/updating then you should also update wri/css/screen.css at approx lines 3979-4009:
 
 ```
 }
