@@ -1,6 +1,6 @@
 name = Embarq Map
 description = Provides a static map. This module's repo is https://github.com/wri/module-embarq_map
 package = WRI
-version = 7.x-1.0.1
+version = 7.x-1.0.2
 core = 7.x
 dependencies[] = block
