@@ -4,8 +4,6 @@
  * Module file for static map.
  */
 
-
-
 /**
  * Implements hook_block_info().
  */
@@ -75,7 +73,7 @@ function map_contents() {
       $output .= '<img src="' . $base_path . drupal_get_path('theme', 'wri') . '/images/map/map-pin.png" alt="EMBARQ USA">';
     $output .= '</a>';
 
-    $output .= '<a href="http://www.wrirosscities.org/geography/china" class="map-pin map-pin--china">';
+    $output .= '<a href="http://wri.org.cn" class="map-pin map-pin--china">';
       $output .= '<img src="' . $base_path . drupal_get_path('theme', 'wri') . '/images/map/map-pin-china.png" alt="EMBARQ China">';
     $output .= '</a>';
 
@@ -96,7 +94,6 @@ function map_contents() {
     $output .= '</a>';
 
   $output .= '</div> <!-- end of .static-map-container -->';
-
 
   return $output;
 }
