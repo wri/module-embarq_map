@@ -69,7 +69,7 @@ function map_contents() {
   $output .= '<div class="static-map-container">';
     $output .= '<img src="' . $base_path . drupal_get_path('theme', 'wri') . '/images/map/map-bkg.png" alt="World Map" class="static-map">';
 
-    $output .= '<a href="http://embarq.org/" class="map-pin map-pin--usa">';
+    $output .= '<a href="http://wrirosscities.org" class="map-pin map-pin--usa">';
       $output .= '<img src="' . $base_path . drupal_get_path('theme', 'wri') . '/images/map/map-pin.png" alt="Ross Center United States">';
     $output .= '</a>';
 
