@@ -43,23 +43,23 @@ function map_contents() {
       $output .= '<ul class="list--ruled">';
 
         $output .= '<li class="list-item">';
-          $output .= '<a href="http://embarqbrasil.org/"><img src="' . $base_path . drupal_get_path('theme', 'wri') . '/images/logos/WRI-logo-Brasil-color_Low_R01_0.png" alt=""></a>';
+          $output .= '<a href="http://wricidades.org/"><img src="' . $base_path . drupal_get_path('theme', 'wri') . '/images/logos/WRI-logo-Brasil-color_Low_R01_0.png" alt="Ross Center Brasil"></a>';
         $output .= '</li>';
 
         $output .= '<li class="list-item">';
-          $output .= '<a href="http://www.wrirosscities.org/geography/china"><img src="' . $base_path . drupal_get_path('theme', 'wri') . '/images/logos/WRI-logo-China-color_Low_R01.png" alt="EMBARQ China"></a>';
+          $output .= '<a href="http://wri.org.cn"><img src="' . $base_path . drupal_get_path('theme', 'wri') . '/images/logos/WRI-logo-China-color_Low_R01.png" alt="Ross Center China"></a>';
         $output .= '</li>';
 
         $output .= '<li class="list-item">';
-          $output .= '<a href="http://embarqindia.org/"><img src="' . $base_path . drupal_get_path('theme', 'wri') . '/images/logos/WRI-logo-India-color_Low_R01_0.png" alt=""></a>';
+          $output .= '<a href="http://wricitiesindia.org"><img src="' . $base_path . drupal_get_path('theme', 'wri') . '/images/logos/WRI-logo-India-color_Low_R01_0.png" alt="Ross Center India"></a>';
         $output .= '</li>';
 
         $output .= '<li class="list-item">';
-          $output .= '<a href="http://embarqmexico.org/"><img src="' . $base_path . drupal_get_path('theme', 'wri') . '/images/logos/WRI-logo-Mexico-color_Low_R01_0.png" alt="EMBARQ Mexico"></a>';
+          $output .= '<a href="http://wriciudades.org/"><img src="' . $base_path . drupal_get_path('theme', 'wri') . '/images/logos/WRI-logo-Mexico-color_Low_R01_0.png" alt="Ross Center Mexico Mexico"></a>';
         $output .= '</li>';
 
         $output .= '<li class="list-item">';
-          $output .= '<a href="http://embarqturkiye.org/en"><img src="' . $base_path . drupal_get_path('theme', 'wri') . '/images/logos/WRI-logo-Turkey-color_Low_R03_0.png" alt="EMBARQ Turkiye"></a>';
+          $output .= '<a href="http://wrisehirler.org"><img src="' . $base_path . drupal_get_path('theme', 'wri') . '/images/logos/WRI-logo-Turkey-color_Low_R03_0.png" alt="Ross Center Turkey"></a>';
         $output .= '</li>';
 
       $output .= '</ul>';
@@ -70,27 +70,27 @@ function map_contents() {
     $output .= '<img src="' . $base_path . drupal_get_path('theme', 'wri') . '/images/map/map-bkg.png" alt="World Map" class="static-map">';
 
     $output .= '<a href="http://embarq.org/" class="map-pin map-pin--usa">';
-      $output .= '<img src="' . $base_path . drupal_get_path('theme', 'wri') . '/images/map/map-pin.png" alt="EMBARQ USA">';
+      $output .= '<img src="' . $base_path . drupal_get_path('theme', 'wri') . '/images/map/map-pin.png" alt="Ross Center United States">';
     $output .= '</a>';
 
     $output .= '<a href="http://wri.org.cn" class="map-pin map-pin--china">';
-      $output .= '<img src="' . $base_path . drupal_get_path('theme', 'wri') . '/images/map/map-pin-china.png" alt="EMBARQ China">';
+      $output .= '<img src="' . $base_path . drupal_get_path('theme', 'wri') . '/images/map/map-pin-china.png" alt="Ross Center China">';
     $output .= '</a>';
 
-    $output .= '<a href="http://embarqmexico.org/" class="map-pin map-pin--mexico">';
-      $output .= '<img src="' . $base_path . drupal_get_path('theme', 'wri') . '/images/map/map-pin-mexico.png" alt="EMBARQ Mexico">';
+    $output .= '<a href="http://wriciudades.org/" class="map-pin map-pin--mexico">';
+      $output .= '<img src="' . $base_path . drupal_get_path('theme', 'wri') . '/images/map/map-pin-mexico.png" alt="Ross Center Mexico">';
     $output .= '</a>';
 
-    $output .= '<a href="http://embarqbrasil.org/" class="map-pin map-pin--brasil">';
-      $output .= '<img src="' . $base_path . drupal_get_path('theme', 'wri') . '/images/map/map-pin-brasil.png" alt="EMBARQ Brasil">';
+    $output .= '<a href="http://wricidades.org/" class="map-pin map-pin--brasil">';
+      $output .= '<img src="' . $base_path . drupal_get_path('theme', 'wri') . '/images/map/map-pin-brasil.png" alt="Ross Center Brasil">';
     $output .= '</a>';
 
-    $output .= '<a href="http://embarqindia.org/" class="map-pin map-pin--india">';
-      $output .= '<img src="' . $base_path . drupal_get_path('theme', 'wri') . '/images/map/map-pin-india.png" alt="EMBARQ India">';
+    $output .= '<a href="http://wricitiesindia.org" class="map-pin map-pin--india">';
+      $output .= '<img src="' . $base_path . drupal_get_path('theme', 'wri') . '/images/map/map-pin-india.png" alt="Ross Center India">';
     $output .= '</a>';
 
-    $output .= '<a href="http://embarqturkiye.org/en" class="map-pin map-pin--turkiye">';
-      $output .= '<img src="' . $base_path . drupal_get_path('theme', 'wri') . '/images/map/map-pin-turkiye.png" alt="EMBARQ Turkiye">';
+    $output .= '<a href="http://wrisehirler.org" class="map-pin map-pin--turkiye">';
+      $output .= '<img src="' . $base_path . drupal_get_path('theme', 'wri') . '/images/map/map-pin-turkiye.png" alt="Ross Center Turkey">';
     $output .= '</a>';
 
   $output .= '</div> <!-- end of .static-map-container -->';
