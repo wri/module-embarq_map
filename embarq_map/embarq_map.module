@@ -43,7 +43,7 @@ function map_contents() {
       $output .= '<ul class="list--ruled">';
 
         $output .= '<li class="list-item">';
-          $output .= '<a href="http://wricidades.org/"><img src="' . $base_path . drupal_get_path('theme', 'wri') . '/images/logos/WRI-logo-Brasil-color_Low_R01_0.png" alt="Ross Center Brasil"></a>';
+          $output .= '<a href="http://wricidades.org"><img src="' . $base_path . drupal_get_path('theme', 'wri') . '/images/logos/WRI-logo-Brasil-color_Low_R01_0.png" alt="Ross Center Brasil"></a>';
         $output .= '</li>';
 
         $output .= '<li class="list-item">';
@@ -55,11 +55,15 @@ function map_contents() {
         $output .= '</li>';
 
         $output .= '<li class="list-item">';
-          $output .= '<a href="http://wriciudades.org/"><img src="' . $base_path . drupal_get_path('theme', 'wri') . '/images/logos/WRI-logo-Mexico-color_Low_R01_0.png" alt="Ross Center Mexico Mexico"></a>';
+          $output .= '<a href="https://wriciudades.org"><img src="' . $base_path . drupal_get_path('theme', 'wri') . '/images/logos/WRI-logo-Mexico-color_Low_R01_0.png" alt="Ross Center Mexico Mexico"></a>';
         $output .= '</li>';
 
         $output .= '<li class="list-item">';
           $output .= '<a href="http://wrisehirler.org"><img src="' . $base_path . drupal_get_path('theme', 'wri') . '/images/logos/WRI-logo-Turkey-color_Low_R03_0.png" alt="Ross Center Turkey"></a>';
+        $output .= '</li>';
+
+        $output .= '<li class="list-item">';
+          $output .= '<a href="https://wrirosscities.org"><img src="' . $base_path . drupal_get_path('theme', 'wri') . '/images/logos/WRI-logo-RossCenter-color_Low_R03_0.png" alt="Ross Center  cd ."></a>';
         $output .= '</li>';
 
       $output .= '</ul>';
