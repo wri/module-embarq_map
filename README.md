@@ -1,5 +1,5 @@
 # module-embarq_map
-Drupal module and assets used in several Ross Center Cities sites. 
+Drupal module and assets used in several Ross Center Cities sites including wrirosscities.org, wrisehirler.org, wricidades.org, wriciudades.org. 
 
 # Implementation
 
